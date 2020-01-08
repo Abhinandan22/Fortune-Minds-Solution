@@ -1,0 +1,7 @@
+After BR :-
+
+var ga = new GlideRecord('u_incident_temp');
+	ga.initialize();
+	ga.u_incident_number = current.number;
+	ga.u_short_description = current.short_description;
+	ga.insert();
