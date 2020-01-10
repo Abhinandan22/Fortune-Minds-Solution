@@ -1,0 +1,6 @@
+   var ga = new GlideRecord('u_incident_temp');
+    ga.addQuery('number',current.number);
+    ga.query();
+	ga.next();
+
+    ga.deleteRecord();
