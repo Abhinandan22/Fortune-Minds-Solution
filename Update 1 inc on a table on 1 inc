@@ -1,0 +1,5 @@
+After Delete BR :-
+
+var ga = new GlideRecord('u_incident_temp');
+	ga.short_description = current.state;
+	ga.update();
